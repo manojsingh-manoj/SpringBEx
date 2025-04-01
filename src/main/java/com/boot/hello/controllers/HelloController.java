@@ -10,9 +10,9 @@ import org.springframework.web.bind.annotation.RestController;
 
 @RestController
 public class HelloController {
-	
+	int i=0;
 	@RequestMapping("/hello")
-	public String greetings() {
+	public String greetings1() {
 		
 		
 		return "Hello there! How are you?.....   " + System.getenv("HOSTNAME");
