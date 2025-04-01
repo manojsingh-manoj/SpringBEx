@@ -19,7 +19,7 @@ public class HelloController {
 	}
 
 	@RequestMapping("/sec")
-	public String readSecret() {
+	public String readSecret1() {
 		   StringBuffer sb = new StringBuffer();
         try (InputStream input = new FileInputStream("/opt/app-root/myapp.sec")) {
 
