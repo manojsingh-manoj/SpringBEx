@@ -12,7 +12,7 @@ import org.springframework.web.bind.annotation.RestController;
 public class HelloController {
 	int j=1;
 	@RequestMapping("/hello")
-	public String greetings2() {	
+	public String greetings3() {	
 		
 		return "Hello there! How are you?.....   " + System.getenv("HOSTNAME");
 		
